@@ -1,0 +1,28 @@
+@import "header";
+@import "colores";
+@import "contenidoindex";
+@import "contenidotrabajos";
+@import "contenidoturnos";
+@import "contenidotienda";
+@import "footer";
+@import "boton";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,500;1,900&display=swap');
+
+
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+a {text-decoration: none;}
+.hr {
+	 border: none; 
+	 height: 5px; 
+	 background-color: white; 
+	 color: white;
+	 margin-top: 10px;
+	 margin-bottom: 10px; 
+	}
+
+
+

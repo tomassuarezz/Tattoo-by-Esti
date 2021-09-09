@@ -1,0 +1,9 @@
+@import "colores";
+@import "boton";
+@import "contenidoindex";
+
+.fotos__trabajos img{
+	border-style: map-get($bordeImg, estilo);
+  	border-color: map-get($bordeImg, color);
+  	margin:5px;
+}

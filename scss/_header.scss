@@ -1,0 +1,13 @@
+@import "colores";
+
+$tNav:22px;
+$fNav:300;
+
+nav {
+	font-size: $tNav;
+	a{
+		font-weight:$fNav;
+	}
+}
+
+.bkColor {background-color: $beige;}

@@ -1,0 +1,74 @@
+@import "colores";
+
+$tTitulo:50px;
+$fTitulo:900;
+$pImagen:0, 10px;
+$tParrafo:25px;
+$mayus:uppercase;
+
+
+
+body {
+	color:$blanco;
+	background-color: $negro;
+   overflow-x: hidden;
+}
+h2 {
+	text-transform: $mayus;
+	font-weight:900;
+	font-size: 40px;
+	color: $beige;
+}
+
+.titulo__principal {
+	font-size: $tTitulo;
+	font-weight: $fTitulo;
+	color: $gris;
+	}
+
+.paddingT {
+		padding-top:15px;
+		padding-bottom:15px;
+}
+.paddingC {
+		padding-top:40px;
+		padding-bottom:40px;
+}
+
+
+
+.biografia__index--parrafo{
+		
+			width: 50%;
+			font-weight:300;
+			font-size: $tParrafo;
+			text-transform: uppercase;
+			line-height: 2rem;
+}
+
+.biografia_index--imagen {
+		width:35%;
+}
+
+$bordeImg: (
+	estilo: inset,
+	color: $beige
+);
+
+.fTrabajos img {
+	border-style: map-get($bordeImg, estilo);
+  	border-color: map-get($bordeImg, color);
+  	width: 300px;
+  	height: 400px;
+}
+
+
+.tienda__parrafo{
+		font-weight:300;
+		font-size:25px;
+}
+
+.tienda__imagen {
+		position:relative;
+		bottom:10px;
+}
