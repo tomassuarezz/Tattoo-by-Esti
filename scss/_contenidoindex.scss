@@ -72,3 +72,23 @@ $bordeImg: (
 		position:relative;
 		bottom:10px;
 }
+
+@media only screen and (max-width: 767px){
+.biografia__index {
+			display:flex;
+			flex-direction:column;
+}
+
+.biografia_index--imagen {
+	width:100%;
+	position:relative;
+	left:15px;
+	}
+.biografia__index--parrafo{
+	font-size:18px;
+	width:100%;
+	position:relative;
+	left:15px;
+	}
+
+}

@@ -55,6 +55,20 @@ h2 {
   position: relative;
   bottom: 10px; }
 
+@media only screen and (max-width: 767px) {
+  .biografia__index {
+    display: flex;
+    flex-direction: column; }
+  .biografia_index--imagen {
+    width: 100%;
+    position: relative;
+    left: 15px; }
+  .biografia__index--parrafo {
+    font-size: 18px;
+    width: 100%;
+    position: relative;
+    left: 15px; } }
+
 .border {
   border-radius: 5px;
   background-color: beige;
@@ -110,10 +124,35 @@ h2 {
   position: relative;
   bottom: 10px; }
 
+@media only screen and (max-width: 767px) {
+  .biografia__index {
+    display: flex;
+    flex-direction: column; }
+  .biografia_index--imagen {
+    width: 100%;
+    position: relative;
+    left: 15px; }
+  .biografia__index--parrafo {
+    font-size: 18px;
+    width: 100%;
+    position: relative;
+    left: 15px; } }
+
 .fotos__trabajos img {
   border-style: inset;
   border-color: beige;
   margin: 5px; }
+
+@media only screen and (max-width: 767px) {
+  .fotos__trabajos img {
+    width: 100px;
+    height: 200px; } }
+
+@media only screen and (max-width: 767px) {
+  .imgTurnos {
+    display: none; }
+  .formularioContacto {
+    width: 100% !important; } }
 
 .presupuesto__titulo {
   margin-bottom: 40px;
