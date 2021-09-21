@@ -60,7 +60,14 @@ $bordeImg: (
   	border-color: map-get($bordeImg, color);
   	width: 300px;
   	height: 400px;
+  	transition: all 300ms;
+  	position: relative;
+
 }
+
+.fTrabajos img:hover {
+	transform: scale(1.05);
+	}
 
 
 .tienda__parrafo{
@@ -77,6 +84,10 @@ $bordeImg: (
 .biografia__index {
 			display:flex;
 			flex-direction:column;
+}
+
+.col-xs-4 {
+		margin: 10px;
 }
 
 .biografia_index--imagen {
