@@ -1,9 +1,15 @@
 @import "colores";
 
-.carouselMod {
-	@media only screen and (min-width: 1024px){
-	width:35%;
-	position:relative;
-	left:400px
-	}
+.ptienda img {
+	border: 2px solid white;
+  	transition: all 300ms;
+  	position: relative;
+
 }
+
+.ptienda img:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+	}
+
+
